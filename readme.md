@@ -10,3 +10,4 @@ Course readme
 8. Using constants
 9. Template literals
 10. \n in strings - line breaks, escaping
+11. functions, return, code order
