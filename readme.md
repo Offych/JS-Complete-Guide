@@ -11,3 +11,7 @@ Course readme
 9. Template literals
 10. \n in strings - line breaks, escaping
 11. functions, return, code order
+12. Global and local scope
+13. Shadowed variables
+14. Return statement
+15. Indirect function execution
