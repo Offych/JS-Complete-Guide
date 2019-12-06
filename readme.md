@@ -18,3 +18,4 @@ Course readme
 16. Convert Data types parseInt(userInput.value) === +userInput.value (for example )
 number.toString(), mixing numbers and strings only + works as concatenation, * / - works as math and result typeof will be a number!
 17. Avoid repeteatable code. Split it into consts or function to further usage.
+18. Functions, connecting buttons to funcitons
