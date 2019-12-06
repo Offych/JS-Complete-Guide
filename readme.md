@@ -15,3 +15,5 @@ Course readme
 13. Shadowed variables
 14. Return statement
 15. Indirect function execution
+16. Convert Data types parseInt(userInput.value) === +userInput.value (for example )
+number.toString(), mixing numbers and strings only + works as concatenation, * / - works as math and result typeof will be a number!
