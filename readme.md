@@ -20,3 +20,4 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 17. Avoid repeteatable code. Split it into consts or function to further usage.
 18. Functions, connecting buttons to functions, refactoring
 19. Comments in the code //  /*  */ 
+20. Operators ++value  value++ differencies 
