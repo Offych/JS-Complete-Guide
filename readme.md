@@ -21,3 +21,5 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 18. Functions, connecting buttons to functions, refactoring
 19. Comments in the code //  /*  */ 
 20. Operators ++value  value++ differencies 
+21. Data types: booleans, numbers, strings, objects, arrays
+22. Arrays. push method, indexes in the arrays, 0-based index.
