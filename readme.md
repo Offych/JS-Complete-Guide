@@ -26,3 +26,6 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 23. Objects, creatinh objects, key-value pairs, formatting pairs in the objects (separated via comma!)
 24. Access object data (Object.property_of_object)
 25. Create a log with object and use it to log with a funciton
+26. null/ undefined / NaN
+27. typeof operator 
+28. Defer and async scripts import
