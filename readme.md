@@ -23,7 +23,7 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 20. Operators ++value  value++ differencies 
 21. Data types: booleans, numbers, strings, objects, arrays
 22. Arrays. push method, indexes in the arrays, 0-based index.
-23. Objects, creatinh objects, key-value pairs, formatting pairs in the objects (separated via comma!)
+23. Objects, creating objects, key-value pairs, formatting pairs in the objects (separated via comma!)
 24. Access object data (Object.property_of_object)
 25. Create a log with object and use it to log with a funciton
 26. null/ undefined / NaN
