@@ -29,3 +29,4 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 26. null/ undefined / NaN
 27. typeof operator 
 28. Defer and async scripts import
+29. If-else statement
