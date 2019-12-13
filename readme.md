@@ -30,3 +30,4 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 27. typeof operator 
 28. Defer and async scripts import
 29. If-else statement
+30. else if statement
