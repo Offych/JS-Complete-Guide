@@ -31,3 +31,6 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 28. Defer and async scripts import
 29. If-else statement
 30. else if statement
+31. The Logical AND and OR operators
+32. Operator Precedence (on the MDN network refresh)
+33. Falsy abd Truthy Values 0, empty string, null, undefined, NaN - falsy. any number, any nom empty string, {}, [] & all other object and arrays - trythy
