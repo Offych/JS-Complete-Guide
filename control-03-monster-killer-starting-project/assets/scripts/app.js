@@ -28,15 +28,14 @@ let hasBonusLife = true;
 adjustHealthBars(chosenMaxLife);
 
 function writeToLog(ev, val, monsterHealth, playerHealth) {
-    let logEntry;
+    let logEntry = {
+        event: ev,
+        value: val,
+        finalMonsterHealth: monsterHealth,
+        finalPlayerHealth: playerHealth
+    };
     if (event === LOG_EVENT_PLAYER_ATTACK) {
-        logEntry = {
-            event: ev,
-            value: val,
-            target: 'MONSTER',
-            finalMonsterHealth: monsterHealth,
-            finalPlayerHealth: playerHealth
-        };
+        logEntry.target = 
     } else if (ev === LOG_EVENT_STRONG_ATACK) {
         logEntry = {
             event: ev,
