@@ -35,3 +35,4 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 32. Operator Precedence (on the MDN network refresh)
 33. Falsy abd Truthy Values 0, empty string, null, undefined, NaN - falsy. any number, any nom empty string, {}, [] & all other object and arrays - trythy
 34. If-else statements exapmle project
+35. Ternary operator
