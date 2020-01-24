@@ -39,4 +39,8 @@ number.toString(), mixing numbers and strings only + works as concatenation, * /
 36. Boolean tricks with Logical Operators: !! , default value assignment via OR operator: const name = someInput || 'Sasha', via AND operator 
 const name = isLogged && 'Sasha'
 37. Switch-case Statement
-
+38. Loops: for loop, for-of loop, for-in loop, while loop
+    for (let i = 0; i < 3; i++) {console.log(i)};
+    for of - execute for every element in an array: for (const el of array) { console.log(el)};
+    for in - exexute every key in an object: for (const key in object) { console.log(key); console.log(obj.key)};
+    while (isLoggedIn) {......}
