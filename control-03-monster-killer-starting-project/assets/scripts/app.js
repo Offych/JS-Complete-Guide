@@ -219,10 +219,37 @@ function healPlayerHandler() {
 }
 
 function printLogHandler() {
+    debugger;
+
+    const hobbies = ['Sports', 'Cooking', 'Coding'];
+    let favoriteHobby;
+    for (const hobby of hobbies) {
+        favoriteHobby = hobby;
+    }
+    console.log(favoriteHobby);
+    let sum = 0;
     for (let i = 0; i < 3; i++) {
+        for (let j = 5; j > 2; j--) {
+            sum = sum + j + i;
+        }
+    }
+    console.log(sum);
+    /*   let sum = 0;
+      for (let i = 2; i <= 6; i++) {
+          sum = sum + i;
+      }
+      console.log(sum); */
+
+
+    let j = 0;
+    while (j < 3) {
+        console.log('---------');
+        j++;
+    }
+    /* for (let i = 0; i < 3; i++) {
         console.log("----------");
 
-    }
+    } */
     /* for (let i = 10; i > 0; i--) {
         console.log(i)
     } */
