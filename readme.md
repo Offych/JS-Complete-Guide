@@ -44,3 +44,5 @@ const name = isLogged && 'Sasha'
     for of - execute for every element in an array: for (const el of array) { console.log(el)};
     for in - exexute every key in an object: for (const key in object) { console.log(key); console.log(obj.key)};
     while (isLoggedIn) {......}
+39. try - catch - finally  error handling
+40. ES5 vs ES6+ SYNTAX, how JS works, weird parts

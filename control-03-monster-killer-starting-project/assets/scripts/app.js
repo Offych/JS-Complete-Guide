@@ -270,6 +270,7 @@ function printLogHandler() {
 
         }
         i++;
+        break;
     }
 }
 
