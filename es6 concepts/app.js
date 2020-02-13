@@ -1,4 +1,4 @@
-
+/* 
 let name = 'Alex';
 
 
@@ -15,4 +15,10 @@ function greet() {
     console.log(name, age, hobbies);
 }
 console.log(name, hobbies)
-greet();
+greet(); */
+
+
+
+let userName = "Sashka";
+
+console.log(userName);
