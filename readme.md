@@ -46,3 +46,5 @@ const name = isLogged && 'Sasha'
     while (isLoggedIn) {......}
 39. try - catch - finally  error handling
 40. ES5 vs ES6+ SYNTAX, how JS works, weird parts
+41. var vs let vs const
+42. hoisting
