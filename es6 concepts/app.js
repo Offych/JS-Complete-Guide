@@ -16,9 +16,11 @@ function greet() {
 }
 console.log(name, hobbies)
 greet(); */
+"use strict"
 
+//will provide an error
+const userName = "Sashka";
 
-
-let userName = "Sashka";
+var undefined = 5;
 
 console.log(userName);

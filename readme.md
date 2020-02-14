@@ -48,3 +48,4 @@ const name = isLogged && 'Sasha'
 40. ES5 vs ES6+ SYNTAX, how JS works, weird parts
 41. var vs let vs const
 42. hoisting
+43. strict mode
