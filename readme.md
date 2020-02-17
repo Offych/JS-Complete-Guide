@@ -49,3 +49,4 @@ const name = isLogged && 'Sasha'
 41. var vs let vs const
 42. hoisting
 43. strict mode
+44. how js works = heap, stack, engines end etc
