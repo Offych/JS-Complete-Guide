@@ -50,3 +50,5 @@ const name = isLogged && 'Sasha'
 42. hoisting
 43. strict mode
 44. how js works = heap, stack, engines end etc
+45. Primitive vs References values
+46. Garbage collection and memory managmenet 
