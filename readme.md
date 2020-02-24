@@ -52,3 +52,4 @@ const name = isLogged && 'Sasha'
 44. how js works = heap, stack, engines end etc
 45. Primitive vs References values
 46. Garbage collection and memory managmenet 
+47. Functions vs methods, functions are objects, fuction expression, function declaration. anonymous functions
