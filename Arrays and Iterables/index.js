@@ -29,7 +29,7 @@ for (const data of analyticData) {
 
 console.log(personData[1]);
  */
-
+/* 
 const hobbies = ["Sport", "Beer"];
 
 hobbies.push("Reading");
@@ -38,9 +38,9 @@ hobbies.pop();
 hobbies.shift();
 console.log(hobbies);
 
-hobbies[1] = "Coding";
+hobbies[1] = "Coding"; */
 //hobbies[5] = "Reading";
-console.log(hobbies);
+/* console.log(hobbies);
 
 hobbies.splice(1, 0, "Good food");
 
@@ -49,3 +49,16 @@ console.log(hobbies);
 const removedElement = hobbies.splice(-2, 1);
 console.log(removedElement);
 console.log(hobbies);
+ */
+const testResults = [1, 5.3, 1, 5, 10.99, 5.3, -5, 10];
+//const storedResults = testResults.slice(2);
+const storedResults = testResults.concat([7, 77]);
+testResults;
+testResults.push(123);
+
+console.log(testResults, storedResults);
+console.log(testResults.lastIndexOf(5.3));
+
+const personData = [{ name: "Max" }, { name: "Alex" }];
+
+console.log(personData.indexOf({ name: "Max" }));
