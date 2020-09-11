@@ -1,4 +1,4 @@
-/* const numbers = [1, 2, 3];
+/* /* const numbers = [1, 2, 3];
 console.log(numbers); */
 
 /* const moreNumbers = new Array(5);
@@ -50,15 +50,15 @@ const removedElement = hobbies.splice(-2, 1);
 console.log(removedElement);
 console.log(hobbies);
  */
-const testResults = [1, 5.3, 1, 5, 10.99, 5.3, -5, 10];
+//const testResults = [1, 5.3, 1, 5, 10.99, 5.3, -5, 10];
 //const storedResults = testResults.slice(2);
-const storedResults = testResults.concat([7, 77]);
+/* const storedResults = testResults.concat([7, 77]);
 testResults;
 testResults.push(123);
 
 console.log(testResults, storedResults);
 console.log(testResults.lastIndexOf(5.3));
-
+console.log(testResults.includes(5.3));
 const personData = [{ name: "Max" }, { name: "Alex" }];
 
 console.log(personData.indexOf({ name: "Max" }));
@@ -73,4 +73,19 @@ const max = personData.findIndex((person, idx, persons) => {
   return (person.name = "Max");
 });
 
-console.log(max);
+console.log(max); */
+
+const prices = [10.99, 5.99, 3.99, 6.59];
+const tax = 0.19;
+
+const taxAdjustedPrices = [];
+
+/* for (const price of prices) {
+  taxAdjustedPrices.push(price * (1 + tax));
+} */
+prices.forEach((price, index, prices) => {
+  const priceObj = { index: index, taxAdjPrice: price * (1 + tax) };
+  taxAdjustedPrices.push(priceObj);
+});
+
+console.log(taxAdjustedPrices);
