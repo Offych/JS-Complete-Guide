@@ -129,3 +129,15 @@ const sum = prices.reduce((prevValue, curValue, curIndes, prices) => {
 }, 0);
 
 console.log(sum);
+
+const data = "new yourk; 10.99; 2000";
+
+const transformedData = data.split(";");
+transformedData[1] = +transformedData[1];
+console.log(transformedData);
+
+const nameFragments = ["Max", "Maxoff"];
+
+const name = nameFragments.join(" ");
+
+console.log(name);
