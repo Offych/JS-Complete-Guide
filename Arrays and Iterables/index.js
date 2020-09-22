@@ -141,3 +141,19 @@ const nameFragments = ["Max", "Maxoff"];
 const name = nameFragments.join(" ");
 
 console.log(name);
+
+const copiedNameFragments = [...nameFragments];
+console.log(copiedNameFragments);
+
+console.log(Math.min(...prices));
+
+const persons = [
+  { name: "Alex", age: 43 },
+  { name: "Polina", age: 44 },
+];
+
+const copiedPersons = [...persons];
+
+persons.push({ name: "Leshka", age: 6 });
+
+console.log(persons, copiedPersons);
