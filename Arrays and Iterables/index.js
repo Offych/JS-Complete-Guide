@@ -90,18 +90,18 @@ console.log(max); */
 
 //console.log(taxAdjustedPrices);
 
-const prices = [10.99, 5.99, 3.99, 6.59];
-const tax = 0.19;
+//const prices = [10.99, 5.99, 3.99, 6.59];
+//const tax = 0.19;
 
 //const taxAdjustedPrices = [];
 
-const taxAdjustedPrices = prices.map((price, index, prices) => {
+/* const taxAdjustedPrices = prices.map((price, index, prices) => {
   const priceObj = { index: index, taxAdjPrice: price * (1 + tax) };
   return priceObj;
-});
+}); */
 
 //console.log(prices, taxAdjustedPrices);
-const sortedPrices = prices.sort((a, b) => {
+/* const sortedPrices = prices.sort((a, b) => {
   if (a > b) {
     return 1;
   } else if (a === b) {
@@ -110,10 +110,10 @@ const sortedPrices = prices.sort((a, b) => {
     return -1;
   }
 });
-console.log(sortedPrices.reverse());
+console.log(sortedPrices.reverse()); */
 
-const filteredArray = prices.filter((price) => price > 6);
-console.log(filteredArray);
+//const filteredArray = prices.filter((price) => price > 6);
+//console.log(filteredArray);
 
 /* let sum = 0;
 
@@ -124,7 +124,7 @@ prices.forEach((price) => {
 console.log(sum);
  */
 
-const sum = prices.reduce((prevValue, curValue, curIndes, prices) => {
+/* const sum = prices.reduce((prevValue, curValue, curIndes, prices) => {
   return prevValue + curValue;
 }, 0);
 
@@ -156,4 +156,10 @@ const copiedPersons = [...persons];
 
 persons.push({ name: "Leshka", age: 6 });
 
-console.log(persons, copiedPersons);
+console.log(persons, copiedPersons); */
+
+const nameData = ["Max", "Maxoff", "Mr", 30];
+
+const [firstName, lastName, ...otherInfo] = nameData;
+
+console.log(firstName, lastName, otherInfo);
